@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Tennis - POWERSHOT</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="#home">
+          <img src="logo.png" alt="POWERSHOT Logo" class="navbar-logo" />
+          <i>POWERSHOT</i>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">Categories</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container text-center">
+        <span class="badge bg-warning text-dark mb-3">
+          TABLE TENNIS SHOWCASE
+        </span>
+
+        <h1>Feel the Spin.<br />Master the Game.</h1>
+
+        <p>
+          Explore the speed, skill, equipment, and excitement behind the world
+          of table tennis.
+        </p>
+
+        <a href="#gallery" class="btn btn-warning btn-lg">
+          Explore More
+          <i class="bi bi-arrow-right-square ms-2"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <h2>Table Tennis Gallery</h2>
+          <p>Explore our collection of table tennis moments.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- IMAGE 1 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Table Tennis Table"
+              data-description="A professional table ready for an exciting match.
+              / Length: 2.74 m (9 ft)
+              / Width: 1.525 m (5 ft)
+              / Height: 76 cm (30 in)
+              / Color: Dark blue or green with white boundary lines."
+              data-image="https://i.pinimg.com/736x/13/24/aa/1324aa9553cebfe22a5d1113735a5991.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/736x/13/24/aa/1324aa9553cebfe22a5d1113735a5991.jpg"
+                  alt="Table tennis table"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Table Tennis Table</h5>
+                <p>Professional playing surface</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 2 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Table Tennis Paddle"
+              data-description="A professional paddle ready for an exciting match."
+              data-image="https://i.pinimg.com/1200x/a7/c6/f2/a7c6f2824949d11595d4a3c4e1cd8625.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/1200x/a7/c6/f2/a7c6f2824949d11595d4a3c4e1cd8625.jpg"
+                  alt="Table tennis paddle"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Table Tennis Paddle</h5>
+                <p>Essential playing equipment</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 3 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Fast Action"
+              data-description="Athletes in motion during a fast-paced table tennis rally."
+              data-image="https://i.pinimg.com/736x/fd/82/0b/fd820b203d0558d36edb0f030090e613.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/736x/fd/82/0b/fd820b203d0558d36edb0f030090e613.jpg"
+                  alt="Fast sports action"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Fast Action</h5>
+                <p>Speed and reaction</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 4 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Competition"
+              data-description="A professional ready for an exciting match.
+              Age group: 18-35
+              Experience: Intermediate to Advanced
+              Training: Regular practice sessions"
+              data-image="https://i.pinimg.com/1200x/b6/ad/f8/b6adf8536f2db257da7aab4df5a04fc6.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/1200x/b6/ad/f8/b6adf8536f2db257da7aab4df5a04fc6.jpg"
+                  alt="Sports competition"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Competition</h5>
+                <p>Focus under pressure</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 5 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Training"
+              data-description="Regular training helps players improve their skills and consistency."
+              data-image="https://i.pinimg.com/736x/58/54/a8/5854a8d8a08155f6309ff2f616426bf8.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/736x/58/54/a8/5854a8d8a08155f6309ff2f616426bf8.jpg"
+                  alt="Sports training"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Training</h5>
+                <p>Practice makes progress</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 6 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Technique"
+              data-description="Developing better skills"
+              data-image="https://i.pinimg.com/1200x/e7/dc/c1/e7dcc1281c75d6c548b2c1119463f638.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/1200x/e7/dc/c1/e7dcc1281c75d6c548b2c1119463f638.jpg"
+                  alt="Technique"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Technique</h5>
+                <p>Developing better skills</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 7 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Reflexes"
+              data-description="Quick movement matters"
+              data-image="https://i.pinimg.com/736x/01/b2/cd/01b2cd5bf2a576a05a377b845bb9ef73.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/736x/01/b2/cd/01b2cd5bf2a576a05a377b845bb9ef73.jpg"
+                  alt="Reflexes"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Reflexes</h5>
+                <p>Quick movement matters</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 8 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Sports Ball"
+              data-description="A professional ball for an exciting game."
+              data-image="https://i.pinimg.com/1200x/c6/13/cf/c613cf7e2523a6b17a3f407ac9219857.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/1200x/c6/13/cf/c613cf7e2523a6b17a3f407ac9219857.jpg"
+                  alt="Sports ball"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>The Ball</h5>
+                <p>Small but essential</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 9 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Table Tennis Table"
+              data-description="A professional table ready for an exciting match."
+              data-image="https://i.pinimg.com/1200x/31/45/d1/3145d199bbee6a5045929eda1575a8e5.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/1200x/31/45/d1/3145d199bbee6a5045929eda1575a8e5.jpg"
+                  alt="Sports equipment"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Equipment</h5>
+                <p>Prepare before playing</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 10 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Player"
+              data-description="A successful player combines focus, skill, speed, and determination."
+              data-image="https://i.pinimg.com/736x/64/af/14/64af14f5c5b84bdcbe608899fc2ffeb6.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/736x/64/af/14/64af14f5c5b84bdcbe608899fc2ffeb6.jpg"
+                  alt="Sports player"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Player</h5>
+                <p>Skill and determination</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 11 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Serving"
+              data-description="Mastering the serve is crucial for success in table tennis."
+              data-image="https://i.pinimg.com/736x/c4/51/cb/c451cbbff0181b8cb17331ed21a05a23.jpg"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://i.pinimg.com/736x/c4/51/cb/c451cbbff0181b8cb17331ed21a05a23.jpg"
+                  alt="Serving the ball"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Serve</h5>
+                <p>Serving the ball</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- IMAGE 12 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="gallery-card"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-title="Rally"
+              data-description="Rallying the ball back and forth is essential for competitive play."
+              data-image="https://img.magnific.com/free-vector/table-tennis-concept_23-2148646411.jpg?semt=ais_test_b&w=740&q=80"
+            >
+              <div class="gallery-image">
+                <img
+                  src="https://img.magnific.com/free-vector/table-tennis-concept_23-2148646411.jpg?semt=ais_test_b&w=740&q=80"
+                  alt="Rallying the ball"
+                />
+              </div>
+
+              <div class="gallery-info">
+                <h5>Rally</h5>
+                <p>Rallying the ball back and forth</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= IMAGE MODAL ================= -->
+
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalTitle">Table Tennis</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body text-center">
+            <img
+              id="modalImage"
+              src=""
+              class="img-fluid rounded"
+              alt="Selected table tennis image"
+            />
+
+            <p id="modalDescription" class="mt-3"></p>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CATEGORIES -->
+    <section id="categories" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <h2>Categories</h2>
+          <p>Discover different parts of the table tennis world.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Equipment -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="bi bi-box2-fill"></i>
+              </div>
+
+              <h4>Equipment</h4>
+              <p>Explore paddles, balls, tables, and other equipment.</p>
+            </div>
+          </div>
+
+          <!-- Competitions -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="bi bi-trophy-fill trophy-icon"></i>
+              </div>
+
+              <h4>Competitions</h4>
+              <p>See the intensity and excitement of table tennis matches.</p>
+            </div>
+          </div>
+
+          <!-- Training -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="bi bi-lightning-charge-fill lightning-icon"></i>
+              </div>
+
+              <h4>Training</h4>
+              <p>Improve speed, accuracy, reflexes, and technique.</p>
+            </div>
+          </div>
+
+          <!-- Players -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="bi bi-person-fill player-icon"></i>
+              </div>
+
+              <h4>Players</h4>
+              <p>Learn about the skills and dedication of players.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>Have a question? Send us a message.</p>
+        </div>
+
+        <div class="row align-items-stretch g-5">
+          <!-- LEFT: IMAGE -->
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="contact-image">
+              <img src="photo1.png" alt="Table tennis" />
+            </div>
+          </div>
+
+          <!-- RIGHT: CONTACT CARD -->
+          <div class="col-12 col-lg-6">
+            <div class="card contact-card border-0 shadow h-100">
+              <div class="card-body p-4 p-md-5">
+                <div class="text-center mb-4">
+                  <i class="bi bi-envelope-paper-fill contact-icon"></i>
+
+                  <h3 class="fw-bold mt-3">Send Us a Message</h3>
+
+                  <p class="text-muted">
+                    Have a question or suggestion? We'd love to hear from you.
+                  </p>
+                </div>
+
+                <form>
+                  <div class="mb-3">
+                    <label class="form-label fw-semibold"> Name </label>
+
+                    <div class="input-group">
+                      <span class="input-group-text">
+                        <i class="bi bi-person-fill"></i>
+                      </span>
+
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Enter your name"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="form-label fw-semibold"> Email </label>
+
+                    <div class="input-group">
+                      <span class="input-group-text">
+                        <i class="bi bi-envelope-fill"></i>
+                      </span>
+
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Enter your email"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="mb-4">
+                    <label class="form-label fw-semibold"> Message </label>
+
+                    <textarea
+                      class="form-control"
+                      rows="5"
+                      placeholder="Write your message"
+                    ></textarea>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn btn-dark w-100 contact-btn fw-semibold"
+                  >
+                    Send Message
+                    <i class="bi bi-send-fill ms-2"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="sport-footer">
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-5">
+            <a
+              href="#home"
+              class="text-decoration-none text-white d-flex align-items-center mb-3"
+            >
+              <img
+                src="logo.png"
+                alt="PowerShot Logo"
+                class="footer-logo me-2"
+              />
+
+              <span class="fw-bold fs-4">PowerShot</span>
+            </a>
+
+            <p class="text-light opacity-75">
+              Discover the speed, skill, and excitement of table tennis. Explore
+              the game, learn its history, and enjoy every rally.
+            </p>
+
+            <div class="d-flex gap-3 mt-4">
+              <a href="#" class="footer-social">
+                <i class="bi bi-facebook"></i>
+              </a>
+
+              <a href="#" class="footer-social">
+                <i class="bi bi-instagram"></i>
+              </a>
+
+              <a href="#" class="footer-social">
+                <i class="bi bi-youtube"></i>
+              </a>
+
+              <a href="#" class="footer-social">
+                <i class="bi bi-tiktok"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-3">
+            <h5 class="text-white fw-bold mb-3">Explore</h5>
+
+            <ul class="list-unstyled footer-links">
+              <li>
+                <a href="#home">Home</a>
+              </li>
+
+              <li>
+                <a href="#gallery">Gallery</a>
+              </li>
+
+              <li>
+                <a href="#categories">Categories</a>
+              </li>
+
+              <li>
+                <a href="#about">About</a>
+              </li>
+
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-4">
+            <h5 class="text-white fw-bold mb-3">Table Tennis</h5>
+
+            <ul class="list-unstyled footer-links">
+              <li>
+                <a href="#gallery">
+                  <i class="bi bi-images me-2"></i>
+                  Gallery
+                </a>
+              </li>
+
+              <li>
+                <a href="#categories">
+                  <i class="bi bi-trophy-fill me-2"></i>
+                  Competitions
+                </a>
+              </li>
+
+              <li>
+                <a href="#categories">
+                  <i class="bi bi-lightning-charge-fill me-2"></i>
+                  Training
+                </a>
+              </li>
+
+              <li>
+                <a href="#categories">
+                  <i class="bi bi-person-fill me-2"></i>
+                  Players
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="footer-line my-4" />
+
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2"
+        >
+          <p class="mb-0 text-light opacity-75">© 2026 PowerShot | 2BSIT-A.</p>
+
+          <p class="mb-0 text-light opacity-75">
+            Made for the love of table tennis
+            <i class="bi bi-table-tennis ms-1"></i>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const imageModal = document.getElementById("imageModal");
+
+        imageModal.addEventListener("show.bs.modal", function (event) {
+          const card = event.relatedTarget;
+
+          const title = card.getAttribute("data-title");
+          const description = card.getAttribute("data-description");
+          const image = card.getAttribute("data-image");
+
+          document.getElementById("modalTitle").textContent = title;
+
+          document.getElementById("modalDescription").textContent = description;
+
+          document.getElementById("modalImage").src = image;
+        });
+      });
+    </script>
+  </body>
+</html>
